@@ -1,0 +1,16 @@
+msmmr_root: D:/AAAAAAAAAA_emotion/Code/MSMMR
+catalog_path: D:/AAAAAAAAAA_emotion/Code/MSMMR/outputs/inference/mtg/mtg_music_catalog.npz
+track_metadata_path: D:/AAAAAAAAAA_emotion/Code/EMMR/backend/data/semantic_db.json
+music_checkpoint: D:/AAAAAAAAAA_emotion/Code/MSMMR/outputs/music/va/deam_pmemo_joint/seed42_20260806-110600/best.pt
+text_checkpoint: D:/AAAAAAAAAA_emotion/Code/MSMMR/outputs/text/va/xlm_roberta_base/seed42_20260806-110723/best.pt
+device: cpu
+planner:
+  total_steps: 4
+  k: 200
+  delta_a: 0.08
+  delta_v: 0.06
+  epsilon_v: 0.20
+  epsilon_a: 0.22
+  epsilon_p: 0.26
+  congruence_radius: 0.30
+  alpha: 0.65
